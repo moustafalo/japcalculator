@@ -50,11 +50,8 @@ export const CalculatorPage: React.FC<Props> = (props: Props) => {
       [itemName]: { value, kcal: value * itemKcal },
     });
   };
-  const reset = () => (
-    
-  ) => {
-    setValues({
-    });
+  const reset = () => () => {
+    setValues({});
   };
 
   const result = Object.keys(values).reduce((acc: number, itemName: string) => {
