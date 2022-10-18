@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { withStyles } from "@material-ui/core/styles";
 import { CSSProperties } from "@material-ui/styles";
 import { CustomTheme } from "../../style/theme";
-import { Button, ListItem } from "@material-ui/core";
+import { Button} from "@material-ui/core";
 
 import kanjiSun from "../../assets/kanji/Kanji sun.svg";
 import kanjiBook from "../../assets/kanji/Kanji book.svg";
